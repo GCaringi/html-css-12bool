@@ -9,6 +9,16 @@
     min-height: 50px;
     justify-content: center;
     align-items: center;
+    gap: 1px;
+}
+
+.nested_row{
+    padding: 15px;
+}
+
+.nested{
+    background-color: #00e165;
+    padding: 15px;
 }
 
 .col{
