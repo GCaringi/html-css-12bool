@@ -1,0 +1,73 @@
+/*----------
+    Reset
+-----------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*------------
+   Container 
+------------*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-left: 1px ;
+}
+
+/*-------------
+    Component
+--------------*/
+
+.col-1{
+    width: calc(((100% / 12) * 1) - 1px);
+}
+
+.col-2{
+    width: calc(((100% / 12) * 2) - 1px);
+}
+
+.col-3{
+    width: calc(((100% / 12) * 3) - 1px);
+}
+
+.col-4{
+    width: calc(((100% / 12) * 4) - 1px);
+}
+
+.col-5{
+    width: calc(((100% / 12) * 5) - 1px);
+}
+
+.col-6{
+    width: calc(((100% / 12) * 6) - 1px);
+}
+
+.col-7{
+    width: calc(((100% / 12) * 7) - 1px);
+}
+
+.col-8{
+    width: calc(((100% / 12) * 8) - 1px);
+}
+
+.col-9{
+    width: calc(((100% / 12) * 9) - 1px);
+}
+
+.col-10{
+    width: calc(((100% / 12) * 10) - 1px);
+}
+
+.col-11{
+    width: calc(((100% / 12) * 11) - 1px);
+}
+
+.col-12{
+    width: calc(((100% / 12) * 12) - 1px);
+}

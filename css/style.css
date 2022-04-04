@@ -1,0 +1,12 @@
+body{
+    color: #fff
+}
+
+[class ^= "col-"] {
+    display: flex;
+    background-color: #006cfa;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
